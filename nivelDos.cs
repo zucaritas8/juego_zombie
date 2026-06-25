@@ -462,6 +462,8 @@ namespace ZombieSurvivalShooter
             ammo.Tag = "balas";
 
             this.Controls.Add(ammo);
+            vida.BringToFront();
+            player.BringToFront();
         }
 
         private void CargarVida()
@@ -479,6 +481,8 @@ namespace ZombieSurvivalShooter
             vida.Tag = "vida";
 
             this.Controls.Add(vida);
+            vida.BringToFront();
+            player.BringToFront();
         }
 
         private void CrearPowerup()
