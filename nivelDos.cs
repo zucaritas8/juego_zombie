@@ -462,7 +462,7 @@ namespace ZombieSurvivalShooter
             ammo.Tag = "balas";
 
             this.Controls.Add(ammo);
-            vida.BringToFront();
+            ammo.BringToFront();
             player.BringToFront();
         }
 
